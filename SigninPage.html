@@ -8,14 +8,15 @@
     <script src="main.js"></script>
 </head>
 <body>
+    <script src="main.js"></script>
     <div class="main">
         <p class="sign" align="center">Sign in</p>
-        <form class="form1">
-          <input class="un " type="text" align="center" placeholder="Username">
-          <input class="pass" type="password" align="center" placeholder="Password">
-          <a class="submit" align="center">Sign in</a>
+	<p align="center" id="error" style="color:red;"></p>
+	<form class="form1">
+          <input class="un " id="un" type="text" align="center" placeholder="Username">
+          <input class="pass" id="pass" type="password" align="center" placeholder="Password">
+          <button type="button" onclick="validate()" class="submit" align="center">Sign in</button>
           <p class="forgot" align="center"><a href="#">Forgot Password?</p>
-                
                     
         </div>
   
